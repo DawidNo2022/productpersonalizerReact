@@ -19,7 +19,7 @@ const ProductForm = ({
     console.log('Summary:');
     console.log('============');
     console.log('Name:', name);
-    console.log('Price:', getPrice(currentSize));
+    console.log('Price:', getPrice);
     console.log('Size:', currentSize.name);
     console.log('color:', currentColor);
   };
